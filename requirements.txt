@@ -1,0 +1,1 @@
+﻿pip install libtiff scikit-learn scikit-images keras albumentations
