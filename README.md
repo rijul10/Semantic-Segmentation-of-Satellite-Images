@@ -3,6 +3,8 @@ This was a contest taken from Codalabs which required the user to semanticalys s
 
 ## Baby steps
 
+The library requirements are given [here](https://github.com/rijul10/Semantic-Segmentation-of-Satellite-Images/blob/master/requirements.txt)
+
 The first step was data pre-processing or in other words - how to handle 2783 RGB images of 1024x1024 resolution each.
 Data preprocessing for feature extraction
 
