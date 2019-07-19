@@ -28,7 +28,6 @@ def crops(a, crop_size = 128):
 
 Model used - UNET.
 Training the model was done on Nvidia Tesla DGX V100 which delivers 4X faster training than other GPU-based systems by using the NVIDIA GPU Cloud Deep Learning Stack with optimized versions of today’s most popular frameworks. NVIDIA. 10 epochs were used and a batch size of 32 used.
-Results
 
 ## Results
 
