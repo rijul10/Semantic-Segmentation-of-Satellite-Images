@@ -39,7 +39,7 @@ Mean-iou obtained for the UNET architecture = 0.50
 
 ## Future Work
 
--Better feature extraction methods can be used - i.e creating individual masks for each classes and then training the model.
--Due to the class imbalance, i.e too much tree cover but very less water cover the average mean IOU was suffering. Balancing the classes before feeding into the network will help tons.
+* Better feature extraction methods can be used - i.e creating individual masks for each classes and then training the model.
+* Due to the class imbalance, i.e too much tree cover but very less water cover the average mean IOU was suffering. Balancing the classes before feeding into the network will help tons.
 
 ![Class](https://github.com/rijul10/Semantic-Segmentation-of-Satellite-Images/blob/master/Capture1.PNG)
