@@ -21,8 +21,8 @@ Instead of just rescaling the 1024x1024 images, two seperate lists were created.
         n_h = int(int(h/stride))
         n_w = int(int(w/stride))
         # Slicing the image into 128*128 crops with a stride of 16
-        for i in range(1):
-            for j in range(1):
+        for i in range(4):
+            for j in range(4):
                 crop_x = a[(i*stride):((i*stride)+crop_size), (j*stride):((j*stride)+crop_size), :]
                 croped_images.append(crop_x)
         return croped_images
