@@ -6,7 +6,8 @@ This was a contest taken from Codalabs which required the user to semanticalys s
 The library requirements are given [here](https://github.com/rijul10/Semantic-Segmentation-of-Satellite-Images/blob/master/requirements.txt)
 
 The first step was data pre-processing or in other words - how to handle 2783 RGB images of 1024x1024 resolution each.
-Data preprocessing for feature extraction
+
+## Data preprocessing for feature extraction
 
 Instead of just rescaling the 1024x1024 images, two seperate lists were created. The first contained the rescaled images of 1024x1024 into 128x128 resolution for faster processing. The other list contained the images sliced using a stride of 16 and then rescaled to 128x128 resolution. This resulted in a better mean IOU score.
 
